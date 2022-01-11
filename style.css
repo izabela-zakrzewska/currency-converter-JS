@@ -1,0 +1,33 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffbf80;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.outerForm {
+  background-color: #ffe6cc;
+  margin: 0 auto;
+  border-radius: 4px;
+  width: 75%;
+  max-width: 900px;
+  padding: 10px;
+  padding-top: 20px;
+  height: 200px;
+}
+
+.item {
+  text-align: center;
+  height: 30px;
+  width: 70%;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+#finalAmount {
+  margin: 10px 0;
+}
