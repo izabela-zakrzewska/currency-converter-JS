@@ -1,5 +1,3 @@
-const axios = require("axios");
-
 let getData = async () => {
   let responseEUR = await axios.get(
     "https://api.nbp.pl/api/exchangerates/rates/a/eur/"
@@ -26,7 +24,7 @@ let getData = async () => {
   }
 
   document.querySelector("#finalAmount").innerHTML =
-    "to " + finalAmount + " PLN";
+    "to  " + finalAmount + " PLN";
 };
 
 document.querySelector("#button").addEventListener("click", getData);
